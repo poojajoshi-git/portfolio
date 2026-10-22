@@ -66,8 +66,8 @@ export default function Projects() {
 
       {/* Fullscreen Overlay Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-4 sm:p-6 overflow-y-auto animate-fade-in">
-          <div className="bg-white dark:bg-darkcard max-w-2xl w-full rounded-2xl p-8 border border-gray-200 dark:border-gray-700 space-y-6 relative max-h-[90vh] overflow-y-auto shadow-2xl my-auto animate-scale-in">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-4 sm:p-6 overflow-y-auto animate-fade-in min-h-screen">
+          <div className="bg-white dark:bg-darkcard max-w-2xl w-full rounded-2xl p-8 border border-gray-200 dark:border-gray-700 space-y-6 relative max-h-[90vh] overflow-y-auto shadow-2xl animate-scale-in m-auto">
             <button onClick={() => setSelectedProject(null)} className="absolute top-6 right-6 text-gray-400 hover:text-white font-mono text-lg">
               <X className="w-6 h-6" />
             </button>

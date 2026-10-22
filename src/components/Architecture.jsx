@@ -37,7 +37,7 @@ export default function Architecture() {
             </div>
           ))}
         </div>
-        <div className="bg-white dark:bg-darkcard p-8 rounded-2xl border border-gray-200 dark:border-gray-700 font-mono text-sm space-y-2 shadow-sm transition-all duration-300 hover:shadow-md">
+        <div className="bg-white dark:bg-darkcard p-8 rounded-2xl border border-gray-200 dark:border-gray-700 font-mono text-sm space-y-2 shadow-sm transition-all duration-300 hover:shadow-md text-left">
           <p className="text-accent font-bold">&gt; Component: {archData[activeComp].title}</p>
           <p className="text-gray-600 dark:text-gray-300">{archData[activeComp].desc}</p>
         </div>
